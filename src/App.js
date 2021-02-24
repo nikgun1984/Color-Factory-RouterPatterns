@@ -5,7 +5,6 @@ import {
 	Redirect,
 	Switch,
 } from "react-router-dom";
-import { useState } from "react";
 import { v4 as uuid } from "uuid";
 import { Colors } from "./Colors";
 import { Color } from "./Color";
@@ -20,7 +19,6 @@ function App() {
 		{ text: "blue", color: "#0037FF", id: uuid() },
 	];
 	const [colors, setColors] = useLocalStorageState("colors", defaultColors);
-	// const [colors, setColors] = useState(defaultColors);
 	const addColor = (color) => {
 		const newColor = { ...color, id: uuid() };
 		setColors((colors) => [newColor, ...colors]);
