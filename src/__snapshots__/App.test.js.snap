@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <nav
+      class="App-header"
+    >
+      <h3>
+        Welcome to the color factory.
+      </h3>
+      <h1>
+        <a
+          href="/colors/new"
+        >
+          Add a Color
+        </a>
+      </h1>
+    </nav>
+    <div>
+      <a
+        href="/colors/red"
+      >
+        <p>
+          red
+        </p>
+      </a>
+      <a
+        href="/colors/green"
+      >
+        <p>
+          green
+        </p>
+      </a>
+      <a
+        href="/colors/blue"
+      >
+        <p>
+          blue
+        </p>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
