@@ -1,0 +1,18 @@
+.Color{
+	position: relative;
+	top: -22px; 
+	width: 100vw;
+  	min-height: 100vh;
+}
+
+.Color-center{
+	margin-top: 18.75rem;
+}
+
+.Color-bottom{
+	margin-top: 19rem;
+}
+
+.Color h1{
+	text-shadow: 1px 1px #ffffff;
+}
